@@ -1,13 +1,12 @@
 # python3
 
 
-def max_pairwise_product(numbers):
-    n = len(numbers)
-    max_product = 0
-    for first in range(n):
-        for second in range(first + 1, n):
-            max_product = max(max_product,
-                              numbers[first] * numbers[second])
+def max_pairwise_product(lst_numbers):
+
+    max_num1 = max(lst_numbers)
+    lst_numbers.remove(max_num1)
+    max_num2 = max(lst_numbers)
+    max_product = max_num1 * max_num2
 
     return max_product
 
