@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="179fc843-6849-4d09-9764-f6469502351b" name="Default Changelist" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Javascript_scratch/src/iterateDoWhileLoops.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Javascript_scratch/src/recordCollection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2_algorithmic_warmup/2_last_digit_of_fibonacci_number/fibonacci_last_digit_ao.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2_algorithmic_warmup/2_last_digit_of_fibonacci_number/sub_fibonacci_last_digit_huge2.py" />
+    <list default="true" id="179fc843-6849-4d09-9764-f6469502351b" name="Default Changelist" comment="Last digit submission">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../freecodeCamp_Mongo/.hyperdev-assets" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../freecodeCamp_Mongo/README.md" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../freecodeCamp_Mongo/myApp.js" />
@@ -13,13 +9,8 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../freecodeCamp_Mongo/server.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../freecodeCamp_Mongo/views/index.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../freecodeCamp_express/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../freecodeCamp_npm/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/coursera_algo_toolkit.iml" afterPath="$PROJECT_DIR$/.idea/coursera_algo_toolkit.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2_algorithmic_warmup/1_fibonacci_number/fibonacci.py" afterPath="$PROJECT_DIR$/week2_algorithmic_warmup/1_fibonacci_number/fibonacci.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2_algorithmic_warmup/2_last_digit_of_fibonacci_number/fibonacci_last_digit.py" afterPath="$PROJECT_DIR$/week2_algorithmic_warmup/2_last_digit_of_fibonacci_number/fibonacci_last_digit.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2_algorithmic_warmup/6_last_digit_of_the_sum_of_fibonacci_numbers/fibonacci_sum_last_digit.py" afterPath="$PROJECT_DIR$/week2_algorithmic_warmup/6_last_digit_of_the_sum_of_fibonacci_numbers/fibonacci_sum_last_digit.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../freecodeCamp_npm/.idea/modules.xml" afterPath="$PROJECT_DIR$/../freecodeCamp_npm/.idea/modules.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -668,13 +659,13 @@
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2582" height="1042" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24979919" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24979919" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -715,6 +706,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Last digit submission" />
+    <option name="LAST_COMMIT_MESSAGE" value="Last digit submission" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
