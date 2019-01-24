@@ -1,5 +1,6 @@
 # Uses python3
 def calc_fib(n):
+
     if (n <= 1):
         return n
 
