@@ -1,18 +1,13 @@
 # Uses python3
 import sys
+import math
 
 
 def lcm(a, b):
-    vals = [a, b]
-    lcm_val = max(vals)
-    lcm_max = lcm_val
-    lcm_min = min(vals)
-    ctr = 2
-    while (lcm_val % lcm_min) != 0:
-        lcm_val = lcm_max * ctr
-        ctr += 1
-
-    return lcm_val
+    p_gcd = int(math.gcd(int(a), int(b)))
+    lcm_val = int(int(a) * int(b))
+    lcm_return = int(int(lcm_val)/int(p_gcd))
+    return int(lcm_return)
 
 
 if __name__ == "__main__":
@@ -24,3 +19,4 @@ if __name__ == "__main__":
 
 # 1 1000000
 # 18 35 -> 630
+# 226553150 1023473145 -> 46374212988031350 ctr 45310630

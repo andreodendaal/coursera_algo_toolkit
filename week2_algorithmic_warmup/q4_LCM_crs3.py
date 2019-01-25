@@ -4,12 +4,17 @@ import math
 
 
 def lcm(a, b):
-    gcd = int(math.gcd(a, b))
 
-    
-    lcm_val = int(a * b)
-    lcm_return = lcm_val/gcd
-    return lcm_return
+    vals = [a, b]
+    vals.sort()
+    LCM = vals[1]
+
+    ctr = 2
+    while LCM % vals[0] != 0:
+        LCM = vals[1] * ctr
+        ctr += 1
+
+    return LCM, ctr - 1
 
 
 if __name__ == "__main__":
@@ -20,4 +25,5 @@ if __name__ == "__main__":
     print(lcm(a, b))
 
 # 1 1000000
-# 18 35 -> 630
+# 18 35 -> 630 ctr 18
+# 226553150 1023473145 -> 46374212988031350 ctr 45310630

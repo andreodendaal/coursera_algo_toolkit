@@ -13,7 +13,5 @@ def fib(n):
 
 
 if __name__ == '__main__':
-    #input = sys.stdin.read()
-    #input_n = int(input())
     n = int(input())
     print(fib(n))

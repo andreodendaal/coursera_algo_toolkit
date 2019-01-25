@@ -2,6 +2,10 @@
 def fib_efficient(n):
     """
 
+
+    >>> fib_efficient(2)
+    1
+
     >>> fib_efficient(1000)
     5
 

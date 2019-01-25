@@ -16,5 +16,3 @@ if __name__ == '__main__':
     input = sys.stdin.read()
     n1, n2 = map(int, input.split())
     print(euclidGCD(n1, n2))
-
-#print(euclidGCD(357, 234))

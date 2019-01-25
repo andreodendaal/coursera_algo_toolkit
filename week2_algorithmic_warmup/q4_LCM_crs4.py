@@ -2,19 +2,24 @@
 import sys
 import math
 
+def f_gcd(x, y):
+   """This function implements the Euclidian algorithm
+   to find G.C.D. of two numbers"""
 
-def lcm(a, b):
+   while(y):
+       x, y = y, x % y
 
-    vals = [a, b]
-    vals.sort()
-    LCM = vals[1]
+   return x
 
-    ctr = 2
-    while LCM % vals[0] != 0:
-        LCM = vals[1] * ctr
-        ctr += 1
 
-    return LCM
+# define lcm function
+def lcm(x, y):
+   """This function takes two
+   integers and returns the L.C.M."""
+
+   #lcm = (x*y)//f_gcd(x,y)
+   lcm = (x * y) // (math.gcd(int(a), int(b)))
+   return lcm
 
 
 if __name__ == "__main__":
