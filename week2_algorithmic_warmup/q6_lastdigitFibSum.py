@@ -16,7 +16,7 @@ def q6_lastdigitFibSum(p_num):
 
     str_total = str(total)
 
-    return str_total[-1]
+    return str_total
 
 
 if __name__ == '__main__':
