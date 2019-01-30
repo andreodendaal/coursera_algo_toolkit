@@ -1,7 +1,7 @@
 # Uses python3
 import sys
 
-# define lcm function
+
 def large_fib(func_value, mod):
 
     values = [0, 1]
