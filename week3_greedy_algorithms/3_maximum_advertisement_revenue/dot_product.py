@@ -4,6 +4,8 @@ import sys
 
 def max_dot_product(a, b):
     #write your code here
+    a.sort()
+    b.sort()
     res = 0
     for i in range(len(a)):
         res += a[i] * b[i]
@@ -17,3 +19,5 @@ if __name__ == '__main__':
     b = data[(n + 1):]
     print(max_dot_product(a, b))
     
+# 3 1 3 -5 -2 4 1 = 23 [23 = 3 · 4 + 1 · 1 + (−5) · (−2).]
+# 1 23 39 = 897
