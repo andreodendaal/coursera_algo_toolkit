@@ -6,10 +6,21 @@ Segment = namedtuple('Segment', 'start end')
 
 def optimal_points(segments):
     points = []
+    common_points = []
+
     #write your code here
-    for s in segments:
-        points.append(s.start)
+    segments.sort()
+
+    for s in (segments):
+        #points.append(s.start)
         points.append(s.end)
+
+    points.sort()
+
+    for ctr, value in enumerate(points):
+
+
+
     return points
 
 if __name__ == '__main__':
@@ -20,3 +31,6 @@ if __name__ == '__main__':
     print(len(points))
     for p in points:
         print(p, end=' ')
+
+# 3 1 3 2 5 3 6 = 1 3
+# 4 4 7 1 3 2 5 5 6 = 2 3 6
