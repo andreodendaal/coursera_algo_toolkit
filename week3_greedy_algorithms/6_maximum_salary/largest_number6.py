@@ -6,32 +6,25 @@ from collections import deque
 def largest_number(a):
     #write your code here
 
-    def maxDigits(value):
-        # A value of 7 is greater than 75 or 76 and should be selected first. 775 > 757
-        # But 77 upward would be greater 78 should come before the single digit 7. 787 > 778
-        if int(value) >= 10 and int(value) < 100:
-
-            if value[-1] >= value[-2]:
-                return value
-
-            elif value[-1] < value[-2] and value[-2] in digits:
-                return value[0]
-
-            else:
-                return value
-
-        elif int(value) >= 100 and int(value) < 1000:
-
+    def digitTest(p_max, p_read):
+        v_read = p_read + p_max
+        v_max = p_max + p_read
+        if int(v_read) > int(v_max):
+            return p_read
         else:
-            return value
+            return p_max
 
     res = ""
     digits = deque(a[:])
     orderedDigits = []
 
+
     while digits:
-        # get largest value but test
-        maxdigit = maxDigits(max(digits))
+        maxdigit = '0'
+
+        for digit in digits:
+            maxdigit = digitTest(maxdigit, digit)
+
         orderedDigits.append(maxdigit)
         digits.remove(maxdigit)
 
@@ -47,8 +40,9 @@ if __name__ == '__main__':
     data = input.split()
     a = data[1:]
     print(largest_number(a))
-
-# 4 71 73 79 7 = 7977371
+# 8 1 34 3 98 9 76 45 = 998764543431
+#
+# 5 71 73 79 7 98 = 987977371
 # 2 21 2 = 221
 # 3 3 155 22= 322155
 # 4 3 9 3 155 = 933155
