@@ -9,8 +9,9 @@ def optimal_points(segments):
     points = []
     full_segments = []
     #write your code here
-    # segments.sort(key=operator.itemgetter(0))
+    segments.sort(key=operator.itemgetter(0))
 
+    '''
     for s in segments:
         sub_segment = []
         value = s.start
@@ -20,10 +21,12 @@ def optimal_points(segments):
         full_segments.append(sub_segment)
 
     full_segments.sort(key=operator.itemgetter(0))
+    
+    '''
 
     header = []
     hdr_header = []
-    for cur, nxt in zip(full_segments, full_segments[1:]):
+    for cur, nxt in zip(segments, segments[1:]):
         # check common elements still connect segments. If not choose one and store
         if not header:
             for elem in cur:
