@@ -85,6 +85,7 @@ if __name__ == '__main__':
     for p in points:
         print(p, end=' ')
 
+# https://stackoverflow.com/questions/9835762/how-do-i-find-the-duplicates-in-a-list-and-create-another-list-with-them
 # 3 1 3 2 5 3 6 = 1 3
 # 4 4 7 1 3 2 5 5 6 = 2 3 6
 
