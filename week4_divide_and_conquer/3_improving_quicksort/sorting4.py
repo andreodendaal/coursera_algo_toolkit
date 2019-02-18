@@ -12,7 +12,6 @@ def partition3(a, l, r):
             a[i], a[j] = a[j], a[i]
             j += 1
 
-
         elif elem > x:
 
             a[t], a[i] = a[i], a[t]

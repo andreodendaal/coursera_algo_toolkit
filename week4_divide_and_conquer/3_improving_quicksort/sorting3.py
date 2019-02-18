@@ -18,6 +18,7 @@ def partition3(a, l, r):
             i -= 1  # remain in the same i in this case
         i += 1
 
+    print(a)
     return j, t
 
 def partition2(a, l, r):
@@ -35,11 +36,14 @@ def randomized_quick_sort(a, l, r):
     if l >= r:
         return
     k = random.randint(l, r)
+    print(f'k: {k}')
     a[l], a[k] = a[k], a[l]
     #use partition3
     m1, m2 = partition3(a, l, r)
     #m = partition2(a, l, r)
+    print(f'm1: {m1} m2: {m2}')
     randomized_quick_sort(a, l, m1 - 1);
+
     randomized_quick_sort(a, m2 + 1, r);
 
 
