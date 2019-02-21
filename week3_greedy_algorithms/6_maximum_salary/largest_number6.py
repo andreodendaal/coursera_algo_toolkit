@@ -3,6 +3,10 @@
 import sys
 from collections import deque
 
+"""
+Passed 3-7
+"""
+
 def largest_number(a):
     #write your code here
 
