@@ -1,6 +1,8 @@
 # Uses python3
 import sys
-
+"""
+Passed
+"""
 def get_change(money):
     #write your code here
     if money == 0:
@@ -12,12 +14,9 @@ def get_change(money):
 
         for i, coin in enumerate(coins):
             if m >= coin:
-                test = m // coin
-                test2 = m % coin
                 if m % coin == 0:
                     numCoins = int(m/coin)
                 else:
-                    first = minNumCoins.get(m - coin)
                     numCoins = minNumCoins.get(m - coin) + 1
 
                 if numCoins < minNumCoins.get(m) and numCoins != 0:
