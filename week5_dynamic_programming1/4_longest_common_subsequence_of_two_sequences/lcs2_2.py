@@ -14,7 +14,7 @@ def lcs2(X, Y):
 
     # declaring the array for storing the dp values
     L = [[0] * (y + 1) for i in list(range(x + 1))]
-    #L = [[None] * (x + 1) for i in list(range(y + 1))]
+    #L = [[None] * (y + 1) for i in list(range(x + 1))]
 
     for x_i in range(x + 1):
         for y_i in range(y + 1):
@@ -23,6 +23,8 @@ def lcs2(X, Y):
             elif X[x_i - 1] == Y[y_i - 1]:
                 L[x_i][y_i] = L[x_i - 1][y_i - 1] + 1
             else:
+                val1 = L[x_i - 1][y_i]
+                val2 = L[x_i][y_i - 1]
                 L[x_i][y_i] = max(L[x_i - 1][y_i], L[x_i][y_i - 1])
 
     answer = L[x][y]
@@ -47,3 +49,5 @@ if __name__ == '__main__':
 # 3 2 7 5  2 2 5 = 2
 # 1 7  4 1 2 3 4 = 0
 # 4 2 7 8 3  4 5 2 8 7 = 2
+# 3 2 7 5  2 2 5 = 2
+# 7 5 2 8 7 2 7 8  4 2 7 8
