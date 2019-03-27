@@ -8,19 +8,32 @@ def optimal_weight(W, lst_bars):
     weights_grid.append(weights_row)
     result = 0
     previous_bar = 0
+    bar_processed = [0]
     for i in range(len(lst_bars)):
+
         weights_row = []
         w = 0
         while w <= W:
             w_bar = lst_bars[i]
-            if w_bar <= w:
+
+            if w_bar == w:
                 weights_row.append(w_bar)
+            elif w_bar < w:
+
+                bar_tot = w_bar
+
+                for previous_bar in bar_processed:
+                    if bar_tot + previous_bar <= w:
+                        bar_tot = bar_tot + previous_bar
+
+
+
 
             else:
                 test = weights_grid[i][w]
                 weights_row.append(test)
 
-
+            bar_processed.append(lst_bars[i])
             w += 1
         weights_grid.append(weights_row)
 
