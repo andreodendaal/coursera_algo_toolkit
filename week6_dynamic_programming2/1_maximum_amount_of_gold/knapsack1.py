@@ -28,7 +28,8 @@ def optimal_weight(W, lst_bars):
                     bar_tot += prev_bar
 
                     if bar_tot <= weight:
-                        optimal = bar_tot
+                        if bar_tot > optimal:
+                            optimal = bar_tot
 
                     elif optimal <= weight and bar_tot > weight:
                         optimal = optimal
@@ -64,3 +65,7 @@ if __name__ == '__main__':
 # 10 3 8 4 1 = 9
 # 10 4 8 2 4 1 = 10
 # 11 4 8 2 4 1 = 11
+# 101 3 100 1 2 = 101
+# 11 3 10 1 2 = 11
+# 101 3 100 3 2 = 100
+# 20 4 5 7 12 18 = 19
