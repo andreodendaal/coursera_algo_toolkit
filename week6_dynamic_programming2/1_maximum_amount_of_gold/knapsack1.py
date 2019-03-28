@@ -17,7 +17,6 @@ def optimal_weight(W, lst_bars):
         while w < W:
             w_bar = lst_bars[i]
 
-
             if w_bar == w:
                 weights_row.append(w_bar)
 
