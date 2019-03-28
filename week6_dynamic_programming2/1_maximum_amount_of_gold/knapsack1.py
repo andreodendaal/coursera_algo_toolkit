@@ -3,55 +3,45 @@ import sys
 
 def optimal_weight(W, lst_bars):
     # write your code here
-    weights_row = [0 for i in range(W)]
+    weights_row = [0 for i in range(W + 1)]
     weights_grid = []
     weights_grid.append(weights_row)
-    result = 0
-
     bar_processed = [0]
-    for i in range(len(lst_bars)):
+    lst_bars.sort()
+
+    for bar_ctr, bar in enumerate(lst_bars):
 
         weights_row = []
-        w = 0
 
-        while w < W:
-            w_bar = lst_bars[i]
+        bar_tot = 0
+        #optimal = 0
 
-            if w_bar == w:
-                weights_row.append(w_bar)
+        for weight, prev_weight in enumerate(weights_grid[-1]):
 
-            elif w_bar < w:
+            if bar == weight:
+                weights_row.append(bar)
 
-                bar_tot = 0
-                bar_prev_tot = 0
+            elif bar < weight:
+                optimal = bar
+                bar_tot = bar
+                for prev_bar in bar_processed:
+                    bar_tot += prev_bar
 
-                for previous_bar in bar_processed:
+                    if bar_tot <= weight:
+                        optimal = bar_tot
 
-                    bar_test = w_bar + previous_bar
+                    elif optimal <= weight and bar_tot > weight:
+                        optimal = optimal
 
-                    if bar_test == w:
-                        bar_tot = bar_test
+                    else:
+                        optimal = bar
 
-                    elif bar_test < weights_grid[i][w] and bar_test > bar_tot:
-                        bar_tot = weights_grid[i][w]
-
-                    elif bar_test <= w and bar_test > bar_prev_tot:
-                        bar_tot = bar_test
-                        bar_prev_tot = bar_test
-
-                    elif previous_bar == w:
-                        bar_tot = previous_bar
-                        bar_prev_tot = bar_tot
-
-                weights_row.append(bar_tot)
+                weights_row.append(optimal)
 
             else:
-                test = weights_grid[i][w]
-                weights_row.append(test)
+                weights_row.append(prev_weight)
 
-            w += 1
-
-        bar_processed.append(lst_bars[i])
+        bar_processed.append(bar)
 
         weights_grid.append(weights_row)
 
@@ -72,3 +62,5 @@ if __name__ == '__main__':
 # 10 3 4 1 8 = 9
 # 10 3 8 1 4 = 9
 # 10 3 8 4 1 = 9
+# 10 4 8 2 4 1 = 10
+# 11 4 8 2 4 1 = 11
