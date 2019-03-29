@@ -5,6 +5,10 @@ import sys
 # https://codereview.stackexchange.com/questions/20569/dynamic-programming-knapsack-solution
 # https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/
 # https://stackoverflow.com/questions/36348662/discrete-knapsack-dynamic-programming-python3
+# https://github.com/ayanmaj92/algorithm_specialisation/blob/master/1.Algorithmic_Toolbox/5.Dynamic_Programming/knapsack.py
+
+# https://towardsdatascience.com/course-1-algorithmic-toolbox-part-4-dynamic-programming-223ffc01984a
+
 def optimal_weight(W, lst_bars):
 
     # write your code here
@@ -61,3 +65,4 @@ if __name__ == '__main__':
 # 20 4 5 7 12 18 = 19
 # 20 4 21 5 6 1  = 12
 # 20 5 21 5 6 1 4  = 16
+# 20 6 16 21 5 6 1 4  = 16
