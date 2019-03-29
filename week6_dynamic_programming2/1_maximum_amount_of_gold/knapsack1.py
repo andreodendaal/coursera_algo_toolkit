@@ -9,7 +9,7 @@ def optimal_weight(W, lst_bars):
     bar_processed = [0]
     lst_bars.sort()
 
-    for bar_ctr, bar in enumerate(lst_bars):
+    for bar_ctr, latest_bar in enumerate(lst_bars):
 
         weights_row = []
 
@@ -17,32 +17,55 @@ def optimal_weight(W, lst_bars):
         #optimal = 0
 
         for weight, prev_weight in enumerate(weights_grid[-1]):
+            # process current weight
+            if latest_bar == weight:
+                weights_row.append(latest_bar)
 
-            if bar == weight:
-                weights_row.append(bar)
+            elif latest_bar < weight:
 
-            elif bar < weight:
-                optimal = bar
-                bar_tot = bar
+                # process current weight
+                optimal_with_latest = latest_bar
+                bar_tot = latest_bar
                 for prev_bar in bar_processed:
                     bar_tot += prev_bar
 
                     if bar_tot <= weight:
-                        if bar_tot > optimal:
-                            optimal = bar_tot
+                        if bar_tot > optimal_with_latest:
+                            optimal_with_latest = bar_tot
 
-                    elif optimal <= weight and bar_tot > weight:
-                        optimal = optimal
+                    elif optimal_with_latest <= weight and bar_tot > weight:
+                        optimal_with_latest = optimal_with_latest
 
                     else:
-                        optimal = bar
+                        optimal_with_latest = latest_bar
+
+                optimal_with_previous = bar_processed[-1]
+                bar_tot = 0
+
+                for prev_bar in bar_processed:
+                    bar_tot += prev_bar
+
+                    if bar_tot <= weight:
+                        if bar_tot > optimal_with_previous:
+                            optimal_with_previous = bar_tot
+
+                    elif optimal_with_previous <= weight and bar_tot > weight:
+                        optimal_with_previous = optimal_with_previous
+
+                    else:
+                        optimal_with_previous = bar_processed[-1]
+
+                if optimal_with_latest > optimal_with_previous:
+                    optimal = optimal_with_latest
+                else:
+                    optimal = optimal_with_previous
 
                 weights_row.append(optimal)
 
             else:
                 weights_row.append(prev_weight)
 
-        bar_processed.append(bar)
+        bar_processed.append(latest_bar)
 
         weights_grid.append(weights_row)
 
