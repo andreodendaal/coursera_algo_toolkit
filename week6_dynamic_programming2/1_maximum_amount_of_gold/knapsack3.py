@@ -38,7 +38,13 @@ def optimal_weight(W, lst_bars):
 
                 # Reset to the value of the current bar. To process the next item
                 if bar_processing < W:
-                    total = bar_processing
+                    #total = bar_processing
+                    if bar_processing >= candidate:
+                        total = bar_processing
+
+                    else:
+                        total = candidate
+
                 else:
                     total = 0
 
@@ -65,4 +71,8 @@ if __name__ == '__main__':
 # 20 4 5 7 12 18 = 19
 # 20 4 21 5 6 1  = 12
 # 20 5 21 5 6 1 4  = 16
+<<<<<<< HEAD
 # 20 6 16 21 5 6 1 4  = 16
+=======
+# 20 6 12 6 5 3 2 1 = 20
+>>>>>>> 4fdec2e45d7521c75a298791b5db7f8714026d05
