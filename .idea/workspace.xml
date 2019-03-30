@@ -13,7 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/coursera_algo_toolkit$scratch1.coverage" NAME="scratch1 Coverage Results" MODIFIED="1553837590202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week6_dynamic_programming2/1_maximum_amount_of_gold" />
-    <SUITE FILE_PATH="coverage/coursera_algo_toolkit$knapsack3.coverage" NAME="knapsack3 Coverage Results" MODIFIED="1553851170074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week6_dynamic_programming2/1_maximum_amount_of_gold" />
+    <SUITE FILE_PATH="coverage/coursera_algo_toolkit$knapsack3.coverage" NAME="knapsack3 Coverage Results" MODIFIED="1553966525610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week6_dynamic_programming2/1_maximum_amount_of_gold" />
     <SUITE FILE_PATH="coverage/coursera_algo_toolkit$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1553834964597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week6_dynamic_programming2/1_maximum_amount_of_gold" />
     <SUITE FILE_PATH="coverage/coursera_algo_toolkit$knapsack1.coverage" NAME="knapsack1 Coverage Results" MODIFIED="1553754091821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week6_dynamic_programming2/1_maximum_amount_of_gold" />
   </component>
@@ -46,14 +46,9 @@
       <file leaf-file-name="knapsack3.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/week6_dynamic_programming2/1_maximum_amount_of_gold/knapsack3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding>
-                <marker date="1553903483642" expanded="true" signature="607:1202" ph="..." />
-                <marker date="1553903483642" expanded="true" signature="723:1202" ph="..." />
-                <marker date="1553903483642" expanded="true" signature="835:1202" ph="..." />
-                <marker date="1553903483642" expanded="true" signature="1059:1202" ph="..." />
-              </folding>
+            <state relative-caret-position="512">
+              <caret line="76" column="24" lean-forward="true" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -474,8 +469,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2891" y="-11" width="2902" height="1582" extended-state="1" />
-    <editor active="true" />
+    <frame x="-2891" y="-11" width="2902" height="1582" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298585" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298585" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -488,7 +482,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13309608" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14163701" sideWeight="0.5026061" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39985108" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39985108" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32989323" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -617,14 +611,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/week6_dynamic_programming2/1_maximum_amount_of_gold/knapsack3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <marker date="1553903483642" expanded="true" signature="607:1202" ph="..." />
-            <marker date="1553903483642" expanded="true" signature="723:1202" ph="..." />
-            <marker date="1553903483642" expanded="true" signature="835:1202" ph="..." />
-            <marker date="1553903483642" expanded="true" signature="1059:1202" ph="..." />
-          </folding>
+        <state relative-caret-position="512">
+          <caret line="76" column="24" lean-forward="true" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
