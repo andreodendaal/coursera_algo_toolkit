@@ -11,8 +11,15 @@ import sys
 
 def optimal_weight(W, lst_bars):
 
+    if W > 10**4:
+        return 0
+    elif len(lst_bars) > 300:
+        return 0
+
+
     # write your code here
     lst_bars.sort(reverse=True)
+    #lst_bars.sort()
     candidates = []
 
     for i in range(len(lst_bars)):
@@ -37,7 +44,7 @@ def optimal_weight(W, lst_bars):
             elif total > W:
 
                 # Reset to the value of the current bar. To process the next item
-                if bar_processing < W:
+                if bar_processing <= W:
                     #total = bar_processing
                     if bar_processing >= candidate:
                         total = bar_processing
@@ -58,7 +65,12 @@ if __name__ == '__main__':
     W, n, *w = list(map(int, input.split()))
     print(optimal_weight(W, w))
 
-
+# 5 4 6 3 4 2 = 5
+# 10 4 6 3 4 2 = 10
+# 20 10 9 8 8 6 6 6 5 5 4
+# 10 5 3 5 3 3 5 = 10
+# 30 3 19 5 4
+# 19 4 9 35 35 40 = 9
 # 10 3 1 4 8 = 9
 # 10 3 4 1 8 = 9
 # 10 3 8 1 4 = 9
@@ -75,5 +87,6 @@ if __name__ == '__main__':
 # 20 6 16 21 5 6 1 4  = 16
 
 # 20 6 12 6 5 3 2 1 = 20
-#2 0 4 21 25 5 22 = 9
+# 20 4 21 25 5 22 = 5
+# 20 5 21 4 25 5 22 = 9
 
