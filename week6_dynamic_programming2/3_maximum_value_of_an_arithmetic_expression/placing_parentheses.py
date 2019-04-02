@@ -17,24 +17,33 @@ def get_maximum_value(dataset):
     global min_grid
 
     lst_dataset = list(dataset)
-    lst_integers = re.sub("\D", "", dataset)
-    n = len(lst_integers)
-    max_grid = [[0] * len(lst_integers) for _ in range(n)]
+    str_integers = (re.sub("\D", "", dataset))
+    #lst_integers = list(int(str_integers))
+    n = len(str_integers)
+    max_grid = [[0] * len(str_integers) for _ in range(n)]
 
-    for ctr, val in enumerate(lst_integers):
+    for ctr, val in enumerate(str_integers):
         max_grid[ctr][ctr] = val
+
     min_grid = max_grid[:]
 
-    for s in range(n - 1):
-        for i in range(n - s):
+    for s, val in enumerate(str_integers, start=1):
+        param_range = n - s
+        for (i) in range(1, n - s):
             j = i + s
-            MinandMax(i, j)
+            print(i)
+            #MinandMax(i, j)
 
     return 0
 
 
 def MinandMax(i, j):
-    print(max_grid)
+    min = 0
+    max = 0
+    param_range = len(range(j-1))
+    for k in range(param_range):
+        valueM = max_grid[i][k]
+
 
 
 if __name__ == "__main__":
