@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2640c49-8a71-4324-8b86-98f21f89695a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.py" beforeDir="false" afterPath="$PROJECT_DIR$/week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.py" afterDir="false" />
-    </list>
+    <list default="true" id="a2640c49-8a71-4324-8b86-98f21f89695a" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +69,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
+            <state relative-caret-position="448">
               <caret line="42" column="13" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="13" />
             </state>
           </provider>
@@ -131,7 +128,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-12" />
     <option name="y" value="-12" />
     <option name="width" value="2904" />
@@ -334,11 +331,12 @@
       <option name="presentableId" value="Default" />
       <updated>1553667429141</updated>
       <workItem from="1554152064455" duration="3002000" />
+      <workItem from="1554177129336" duration="32000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3002000" />
+    <option name="totallyTimeSpent" value="3034000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -350,13 +348,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info id="Structure" order="0" visible="true" weight="0.18315618" />
+      <window_info id="Structure" order="0" visible="true" weight="0.28291088" />
       <window_info id="Favorites" order="1" sideWeight="0.5026061" side_tool="true" weight="0.14163701" />
       <window_info x="-1639" y="108" width="398" height="1343" id="Project" order="2" sideWeight="0.4973939" weight="0.14124598" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32911393" />
@@ -368,14 +364,16 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32911393" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.3298585" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32912332" />
-      <window_info anchor="right" id="R Packages" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="R Graphics" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Data View" order="3" weight="0.32989323" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="R Graphics" order="5" />
+      <window_info anchor="right" id="R Packages" order="6" />
+      <window_info anchor="right" id="SciView" order="7" />
     </layout>
     <layout-to-restore>
       <window_info id="Structure" order="0" visible="true" weight="0.13309608" />
@@ -493,7 +491,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
+        <state relative-caret-position="448">
           <caret line="42" column="13" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="13" />
         </state>
       </provider>
